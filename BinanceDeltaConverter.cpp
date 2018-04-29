@@ -72,7 +72,7 @@ int main(int argc, char* argv[])
 					data.push_back(" ");
 			}
 			//write parsed line in the format of Delta.IO
-			outFile << data[0] << ',' << data[2] << ',' << "Binance" << ',' << data[4] << ',' << data[1] << ',' << data[5] << ',' << data[8] << ',' << data[6] << ','<< data[7] << ',' << ',' << ',' << '1' << ',' << ',' << ',' << "myTool" << endl;
+			outFile << data[0] << ',' << data[2] << ',' << "Binance" << ',' << data[4] << ',' << data[1] << ',' << data[5] << ',' << data[8] << ',' << data[6] << ','<< data[7] << ',' << ',' << ',' << '1' << ',' << ',' << ',' << " " << endl;
 		}
 		//close file
 		outFile.close();		
